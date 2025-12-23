@@ -1,0 +1,34 @@
+2025-12-22 11:40:14,288 [INFO] - Opening the Scroll: Test process initiated.
+2025-12-22 11:40:14,304 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013000' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 11:40:14,310 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013080' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 11:40:14,320 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U000130c0' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 11:40:14,324 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013100' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 11:40:14,330 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013140' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 11:40:14,330 [INFO] - Ma’at Kheper: Sesh medu completed.
+2025-12-22 11:40:14,332 [INFO] - 
+=== Medu neTcher Rekh ===
+Papyri sesh: 1
+Medu neTcher inscribed: 5
+Seshu kheper: 5
+Per medu scrolls: 0
+Kheper archive: 0 MB
+========================
+
+2025-12-22 11:40:14,336 [INFO] - Sesh medu: Summary sealed at glyph_test_output\Summary_Report.txt
+2025-12-22 12:29:12,779 [INFO] - Opening the Scroll: Test process initiated.
+2025-12-22 12:29:12,791 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013000' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 12:29:12,803 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013080' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 12:29:12,813 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U000130c0' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 12:29:12,829 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013100' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 12:29:12,835 [ERROR] - Isfet Kheper: Failed to inscribe glyph '\U00013140' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-22 12:29:12,845 [INFO] - Ma’at Kheper: Sesh medu completed.
+2025-12-22 12:29:12,845 [INFO] - 
+=== Medu neTcher Rekh ===
+Papyri sesh: 1
+Medu neTcher inscribed: 5
+Seshu kheper: 5
+Per medu scrolls: 0
+Kheper archive: 0 MB
+========================
+
+2025-12-22 12:29:12,851 [INFO] - Sesh medu: Summary sealed at glyph_test_output\Summary_Report.txt
