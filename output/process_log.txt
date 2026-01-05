@@ -1,0 +1,121 @@
+2025-12-22 12:46:09 [INFO] - Opening the Scroll: Per medut kheper (Process initiated).
+2025-12-22 12:46:09 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-22 12:46:18 [INFO] - Sesh medu: Default directory accepted (C:\Users\calmc\OneDrive\medu_neTcher)
+2025-12-22 12:48:15 [INFO] - Sesh medu: Default numeric value accepted (10)
+2025-12-22 12:54:43 [INFO] - Sesh medu: Default numeric value accepted (50)
+2025-12-22 12:54:46 [INFO] - Sesh medu: Default numeric value accepted (4)
+2025-12-22 12:57:06 [INFO] - Sesh medu: Default filename accepted (glyph_output.pdf)
+2025-12-22 12:57:32 [WARNING] - Isfet Kheper: Overwrite declined for C:\learnpython\output\glyph_output.pdf
+2025-12-22 12:59:45 [INFO] - Sesh medu: Default filename accepted (glyph_output.pdf)
+2025-12-22 12:59:58 [WARNING] - Isfet Kheper: Overwrite declined for C:\learnpython\output\glyph_output.pdf
+2025-12-22 13:03:13 [INFO] - Sesh medu: Default filename accepted (glyph_output.pdf)
+2025-12-22 13:03:26 [WARNING] - Isfet Kheper: Overwrite declined for C:\learnpython\output\glyph_output.pdf
+2025-12-22 13:04:04 [INFO] - Sesh medu: Default filename accepted (glyph_output.pdf)
+2025-12-22 13:04:28 [WARNING] - Isfet Kheper: Overwrite declined for C:\learnpython\output\glyph_output.pdf
+2025-12-22 13:06:52 [INFO] - Sesh medu: Default filename accepted (glyph_output.pdf)
+2025-12-22 13:07:00 [WARNING] - Isfet Kheper: Overwrite declined for C:\learnpython\output\glyph_output.pdf
+2025-12-22 13:07:23 [INFO] - Sesh medu: Filename recorded (C:\learnpython\output\output scroll filename (e.g., glyph_output.pdf))
+2025-12-22 13:07:23 [INFO] - Opening the Scroll: Houses prepared for medut.
+2025-12-22 13:07:23 [INFO] - Opening the Scroll: Parsing 0 text files.
+2025-12-22 13:07:23 [INFO] - Ma’at Kheper: Parsing completed successfully.
+2025-12-22 13:07:23 [INFO] - Opening the Scroll: Generating 0 glyph images.
+2025-12-22 13:07:23 [INFO] - Sesh medu: Papyrus sealed in JSON (C:\learnpython\input\Signs_Master.json)
+2025-12-22 13:07:23 [INFO] - Sesh medu: Archived papyrus (C:\learnpython\input\Signs_Master.json)
+2025-12-22 13:07:23 [INFO] - Sesh medu: Archived papyrus (C:\learnpython\input\Signs_Master.json)
+2025-12-22 13:07:23 [INFO] - Ma’at Kheper: Per kheper archive completed.
+2025-12-22 13:07:23 [INFO] - Ma’at Kheper: Archive sealed at C:\learnpython\input\Signs_Archive.zip
+2025-12-22 13:07:23 [INFO] - 
+=== Medu neTcher Rekh ===
+Papyri sesh: 0
+Medu neTcher inscribed: 0
+Seshu kheper: 0
+Per medu scrolls: 1
+Kheper archive: 0.00 MB
+========================
+
+2025-12-22 13:07:23 [INFO] - Sesh medu: Summary sealed at C:\learnpython\input\Summary_Report.txt
+2025-12-24 21:27:26 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-24 21:27:26 [INFO] - Opening the Scroll: Houses prepared for medut.
+2025-12-24 21:27:26 [INFO] - Opening the Scroll: Parsing 23 text files.
+2025-12-24 21:27:33 [INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/text/text.py "HTTP/1.1 200 OK"
+2025-12-24 21:27:33 [INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/text/text.py "HTTP/1.1 200 OK"
+2025-12-24 21:27:33 [INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/text/text.py "HTTP/1.1 200 OK"
+2025-12-24 21:27:34 [INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/text/text.py "HTTP/1.1 200 OK"
+2025-12-25 03:37:43 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-25 03:37:43 [INFO] - Opening the Scroll: Houses prepared for medut.
+2025-12-25 03:37:43 [INFO] - Opening the Scroll: Parsing 26 text files.
+2025-12-25 11:49:37 - Script started.
+2025-12-25 11:49:37 [INFO] - Script started.
+2025-12-25 11:49:37 - Input folder: C:\learnpython\medu_neTcher
+2025-12-25 11:49:37 [INFO] - Input folder: C:\learnpython\medu_neTcher
+2025-12-25 11:49:37 - Output folder: C:\learnpython\output
+2025-12-25 11:49:37 [INFO] - Output folder: C:\learnpython\output
+2025-12-25 11:49:37 - Idle before 'Discover TXT Files': 0.01 seconds
+2025-12-25 11:49:37 [INFO] - Idle before 'Discover TXT Files': 0.01 seconds
+2025-12-25 11:49:37 - Found 27 .txt files in input folder.
+2025-12-25 11:49:37 [INFO] - Found 27 .txt files in input folder.
+2025-12-25 11:49:37 - Idle before 'Parse TXT Files': 0.00 seconds
+2025-12-25 11:49:37 [INFO] - Idle before 'Parse TXT Files': 0.00 seconds
+2025-12-26 03:08:53 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-26 03:08:53 [INFO] - Idle before 'User Input Validation': 0.01 seconds
+2025-12-26 03:09:10 [INFO] - Sesh medu: Default directory accepted (C:\Users\calmc\OneDrive\medu_neTcher)
+2025-12-26 03:09:16 [INFO] - Sesh medu: Default numeric value accepted (10)
+2025-12-26 03:09:18 [INFO] - Sesh medu: Default numeric value accepted (50)
+2025-12-26 03:11:21 [INFO] - Sesh medu: Numeric input recorded (3)
+2025-12-26 03:12:07 [INFO] - Sesh medu: Default filename accepted (glyph_output.pdf)
+2025-12-26 03:12:07 [INFO] - Sesh medu: Filename recorded (C:\learnpython\output\glyph_output.pdf)
+2025-12-26 03:12:07 [INFO] - Idle before 'Prepare Folders': 194.09 seconds
+2025-12-26 03:12:07 [INFO] - Opening the Scroll: Houses prepared for medut.
+2025-12-26 03:12:07 [INFO] - Idle before 'Parsing glyph papyri': 0.00 seconds
+2025-12-26 03:12:07 [INFO] - Opening the Scroll: Parsing 1 text files.
+2025-12-26 03:12:07 [INFO] - Ma’at Kheper: Parsing glyph papyri completed.
+2025-12-26 08:08:34 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-26 08:08:34 [INFO] - Idle before 'Parsing glyph papyri': 0.02 seconds
+2025-12-26 08:08:34 [INFO] - Opening the Scroll: Parsing 27 text files.
+2025-12-26 11:33:32 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-26 11:33:32 [INFO] - Idle before 'Parsing glyph papyri': 0.01 seconds
+2025-12-26 11:33:32 [INFO] - Opening the Scroll: Parsing 26 text files.
+2025-12-29 10:06:30 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-29 10:06:30 [INFO] - Idle before 'Parsing glyph papyri': 0.01 seconds
+2025-12-29 10:06:30 [INFO] - Opening the Scroll: Parsing 26 text files.
+2025-12-29 11:23:15 [INFO] - Opening the Scroll: Per medut kheper (Process initiated).
+2025-12-29 11:23:15 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-29 11:35:59 [INFO] - Opening the Scroll: Per medut kheper (Process initiated).
+2025-12-29 11:36:00 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-29 11:37:01 [INFO] - Sesh medu: Numeric input recorded (14)
+2025-12-29 11:40:48 [INFO] - Sesh medu: Numeric input recorded (16)
+2025-12-29 11:47:14 [INFO] - Opening the Scroll: Per medut kheper (Process initiated).
+2025-12-29 11:47:14 [INFO] - Opening the Scroll: Initial configuration complete.
+2025-12-29 11:47:37 [INFO] - Ma’at Kheper: Directory created (Users\calmc\OneDrive\medu_neTcher)
+2025-12-29 15:55:08 [INFO] - Sesh medu: Numeric input recorded (14)
+2025-12-29 16:00:36 [INFO] - Sesh medu: Numeric input recorded (24)
+2025-12-29 16:00:42 [INFO] - Sesh medu: Numeric input recorded (2)
+2025-12-29 16:08:49 [INFO] - Sesh medu: Filename recorded (C:\learnpython\output\C__learnpython_.git_output_glyph_output.pdf)
+2025-12-29 16:08:49 [INFO] - Opening the Scroll: Houses prepared for medut.
+2025-12-29 16:08:49 [INFO] - Opening the Scroll: Parsing 1 text files.
+2025-12-29 16:08:49 [INFO] - Ma’at Kheper: Parsing glyph papyri completed.
+2025-12-29 16:08:58 [INFO] - Ma’at Kheper: Parsing completed successfully.
+2025-12-29 16:08:58 [INFO] - Opening the Scroll: Generating 3 glyph images.
+2025-12-29 16:08:58 [ERROR] - Isfet Kheper: Failed to inscribe glyph 'Papyri' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-29 16:08:58 [ERROR] - Isfet Kheper: Failed to inscribe glyph 'Seshu' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-29 16:08:58 [ERROR] - Isfet Kheper: Failed to inscribe glyph 'Kheper' - 'ImageDraw' object has no attribute 'textsize'
+2025-12-29 16:08:58 [INFO] - Ma’at Kheper: Sesh medu completed.
+2025-12-29 16:08:58 [INFO] - Sesh medu: Papyrus sealed in JSON (C:\learnpython\input\Signs_Master.json)
+2025-12-29 16:08:58 [INFO] - Sesh medu: Papyrus sealed in JSON (C:\learnpython\input\signs_by_category_json\Summary_Report.json)
+2025-12-29 16:08:58 [INFO] - Sesh medu: Papyrus sealed in CSV (C:\learnpython\input\signs_by_category_csv\Summary_Report.csv)
+2025-12-29 16:08:58 [INFO] - Sesh medu: Archived papyrus (C:\learnpython\input\Signs_Master.json)
+2025-12-29 16:08:58 [INFO] - Sesh medu: Archived papyrus (C:\learnpython\input\Signs_Master.json)
+2025-12-29 16:08:58 [INFO] - Sesh medu: Archived papyrus (C:\learnpython\input\signs_by_category_json\Summary_Report.json)
+2025-12-29 16:08:58 [INFO] - Sesh medu: Archived papyrus (C:\learnpython\input\signs_by_category_csv\Summary_Report.csv)
+2025-12-29 16:08:58 [INFO] - Ma’at Kheper: Per kheper archive completed.
+2025-12-29 16:08:58 [INFO] - Ma’at Kheper: Archive sealed at C:\learnpython\input\Signs_Archive.zip
+2025-12-29 16:08:58 [INFO] - 
+=== Medu neTcher Rekh ===
+Papyri sesh: 1
+Medu neTcher inscribed: 3
+Seshu kheper: 3
+Per medu scrolls: 1
+Kheper archive: 0.00 MB
+========================
+
+2025-12-29 16:08:58 [INFO] - Sesh medu: Summary sealed at C:\learnpython\input\Summary_Report.txt

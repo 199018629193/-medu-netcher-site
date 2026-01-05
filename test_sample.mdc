@@ -1,0 +1,14 @@
+import hieroglyphic_render # (hieroglyph library)
+mdc_notation = "N35:N35:N35","A1", "({D36}*[X1:Z1])" "[G17]*[t:Z2]*[A2])"
+"(D21:N35)" "[M17*M17]" "[N35:Z2:Aa1]" "[D46-G43-G17]" "[I10:S29*D21:Y1])"
+
+# Use the library's method to generate a visual representation
+# The library's method would patse the ":" character correctly
+render_image = hieroglyph_render .render(mdc_notation)
+
+#Display the image
+rendered_image.display("stacked_hieroglyph.png") 
+
+
+
+

@@ -1,0 +1,6 @@
+
+jsesh_render(
+    mdc_file=r"C:\learnpython\myjesh_file.mdc",
+    output_file=r"C:\learepython\jsesh_render_output.svg",
+    output_format="svg"  # or "pdf", "png"
+)

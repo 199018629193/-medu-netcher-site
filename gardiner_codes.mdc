@@ -1,0 +1,27 @@
+import gardiner2unicode
+
+def hieroglyphic_render(mdc_notation):
+    """
+    Render Egyptian hieroglyphs from MdC notation or Gardiner codes.
+    Returns a Unicode string.
+    """
+    # If mdc_notation is a string, split by ',' or handle as needed
+    if isinstance(mdc_notation, str):
+        codes = [code.strip() for code in mdc_notation.split(',')]
+    elif isinstance(mdc_notation, (list, tuple)):
+        codes = mdc_notation
+    else:
+        codes = [str(mdc_notation)]
+    
+    # Convert each code to Unicode using gardiner2unicode
+    unicode_glyphs = []
+    for code in codes:
+        try:
+            unicode_glyphs.append(gardiner2unicode(code))
+        except Exception:
+            unicode_glyphs.append('?')  # Unknown code
+    return ''.join(unicode_glyphs)
+
+# Example usage:
+mdc_notation = ["N35", "A1", "D36", "G17"]
+print(hieroglyphic_render(mdc_notation))

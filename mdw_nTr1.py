@@ -1,21 +1,18 @@
 
 import os
-import sys
+from tqdm import tqdm
 import json
 import os
 import csv
 import zipfile
 import re
 import logging
-import time
-from tqdm import tqdm
 from datasets import load_dataset
 import pandas as pd
 from reportlab.lib.pagesizes import letter, landscape, portrait
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 from PIL import Image, ImageDraw, ImageFont
-from datetime import datetime
 import argparse
 import sys
 
@@ -29,7 +26,18 @@ def setup_logging(log_path):
         format="%(asctime)s [%(levelname)s] - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S"
     )
-    logging.info("Opening the Scroll: Per medut kheper (Process initiated).")
+
+input_folder = "C:\\learnpython\\medu_neTcher"  # or your chosen path
+files = os.listdir(input_folder)
+print("Files in input folder:", files)
+
+# If filtering for PDFs:
+pdf_files = [f for f in files if f.lower().endswith('.pdf')]
+print("PDF files found:", pdf_files)
+
+logging.info("Opening the Scroll: Per medut kheper (Process initiated).")
+input_files = os.listdir(input_folder)
+print("Files found in input folder:", input_files)
 
 # -------------------------------
 # Validation Helpers
@@ -146,14 +154,14 @@ DEFAULT_FOLDER = r"C:\Users\calmc\OneDrive\medu_neTcher"
 folder_path = get_valid_directory(f"Enter papyri path [default: {DEFAULT_FOLDER}]: ", default=DEFAULT_FOLDER)
 
 orientation = input(f"Choose scroll orientation (portrait/landscape) [default: {orientation_choice}]: ").strip() or orientation_choice
-pdf_orientation = landscape(letter) if orientation == "landscape" else portrait(letter)
+
 
 maat_font_size = get_int_input("Enter font size for scroll (e.g., 10): ", default=10)
 image_size = get_int_input("Enter glyph image size in pixels (e.g., 50): ", default=50)
 sesh_columns = get_int_input("Enter number of columns for scroll layout (e.g., 4): ", default=4)
 djed_medut_ack = input("Enter acknowledgements (e.g., Unicode Consortium, Gardiner List): ").strip() or "Unicode Consortium, Gardiner List"
 
-pdf_path = get_valid_filename("Enter output scroll filename (e.g., glyph_output.pdf): ", per_medut_out, default="glyph_output.pdf", overwrite=overwrite)
+pdf_path = get_valid_filename("C:\learnpython\output (e.g., glyph_output.pdf): ", per_medut_out, default="glyph_output.pdf", overwrite=overwrite)
 
 # -------------------------------
 # Prepare folders
@@ -289,11 +297,11 @@ logging.info("Ma’at Kheper: Parsing completed successfully.")
 # -------------------------------
 print(f"Inscribing glyph images for {len(structured_signs_medut)} signs...")
 logging.info(f"Opening the Scroll: Generating {len(structured_signs_medut)} glyph images.")
-for idx, entry in enumerate(structured_signs_medut, start=1):
+for entry in tqdm(structured_signs_medut, desc="Inscribing glyph images"):
     img_path = os.path.join(per_sesh_seshu, f"{entry['code']}.png")
     if not os.path.exists(img_path):
         per_sesh_medut(entry["glyph"], img_path)
-    show_progress_sesh(idx, len(structured_signs_medut), "Sesh medu")
+
 
 # -------------------------------
 # Export JSON and CSV

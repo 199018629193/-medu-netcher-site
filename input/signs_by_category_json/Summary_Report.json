@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Summary_Report",
+    "code": "=== Medu neTcher Rekh ===",
+    "glyph": "Papyri",
+    "unicode_escape": "Papyri",
+    "unicode_hex": "U+0050 U+0061 U+0070 U+0079 U+0072 U+0069",
+    "description": "sesh: 1"
+  },
+  {
+    "category": "Summary_Report",
+    "code": "Medu neTcher inscribed: 3",
+    "glyph": "Seshu",
+    "unicode_escape": "Seshu",
+    "unicode_hex": "U+0053 U+0065 U+0073 U+0068 U+0075",
+    "description": "kheper: 3"
+  },
+  {
+    "category": "Summary_Report",
+    "code": "Per medu scrolls: 1",
+    "glyph": "Kheper",
+    "unicode_escape": "Kheper",
+    "unicode_hex": "U+004B U+0068 U+0065 U+0070 U+0065 U+0072",
+    "description": "archive: 0.00 MB"
+  }
+]

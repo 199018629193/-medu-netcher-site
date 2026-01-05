@@ -1,0 +1,49 @@
+
+import subprocess
+import os
+
+def jsesh_render(
+    mdc_file,
+    output_file,
+    jsesh_dir=r"C:\Program Files (x86)\JSesh-7.9",
+    output_format="svg"
+):
+    """
+    Render an MdC file using JSesh CLI.
+    :param mdc_file: Path to the input MdC file (.txt or .mdc)
+    :param output_file: Path to the output file (.svg, .png, .pdf)
+    :param jsesh_dir: Path to JSesh installation directory
+    :param output_format: 'svg', 'pdf', or 'png'
+    :return: True if successful, False otherwise
+    """
+    # JSesh jar location
+    jsesh_jar = os.path.join(jsesh_dir, "jsesh.jar")
+    if not os.path.exists(jsesh_jar):
+        print(f"JSesh jar not found at {jsesh_jar}")
+        return False
+
+    # Build command
+    export_flag = {
+        "svg": "-exportSVG",
+        "pdf": "-exportPDF",
+        "png": "-exportPNG"
+    }.get(output_format.lower())
+    if not export_flag:
+        print("Invalid output format. Use 'svg', 'pdf', or 'png'.")
+        return False
+
+    cmd = [
+        "java", "-jar", jsesh_jar,
+        export_flag, mdc_file, output_file
+    ]
+
+    try:
+        result = subprocess.run(cmd, check=True, capture_output=True, text=True)
+        print(f"JSesh rendering complete: {output_file}")
+        return True
+    except subprocess.CalledProcessError as e:
+        print("JSesh rendering failed:", e.stderr)
+        return False
+
+# Example usage:
+# jsesh_render("C:\\learnpython\\myjsesh_file.mdc", "C:\\learnpython\\jsesh_render_output.svg", output_format="svg")
